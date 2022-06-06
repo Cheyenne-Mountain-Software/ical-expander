@@ -2,7 +2,7 @@
   "name": "ical-expander",
   "version": "3.1.0",
   "description": "ICS / iCal / iCalendar parser / expander",
-  "main": "index.js",
+  "main": "index.cjs",
   "scripts": {
     "lint": "eslint .",
     "test": "env TZ=Etc/UTC mocha",
@@ -35,7 +35,7 @@
     "nyc": "^15.1.0"
   },
   "files": [
-    "index.js",
+    "index.cjs",
     "zones-compiled.json"
   ]
 }
